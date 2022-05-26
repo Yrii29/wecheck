@@ -19,5 +19,39 @@ html,body{
 }
 
 
+body{
+    line-height: 1;
+    font-family: Roboto;
+    color: #A4D6CF;
+}
+
+.wecheck{
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+flex: 1 1 auto;
+}
+
+
+
+
+
+
+[class*="__container"]{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    
+
+}
+
+
+
+
+
 
 
